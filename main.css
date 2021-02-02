@@ -33,21 +33,33 @@ ul .jeep {
   justify-self: start;
 }
 
-/*div*/
+/*Hero section*/
 
-.content {
+.hero {
   /* display:grid to have more control over child elements, specifically the subscribe button */
   display: grid;
 
   text-align:center;
+
   /*if not align-self:start, "Hello World" container would be located in the middle of the grid cell, so lower down the page*/
   align-self: start;
+
+  /*margin so the container doesnt expand all the way across the page, did not use margin auto because I wanted to button to appear in the middle using align-self: start -- **EDIT**
+  - using margin-left and margin-right does not make it responsive, the "hello world" and subscribe button goes off the page in mobile, however, this makes it so that the box is not centered in the hero section.*/
+  
+  /*margin-left: 22rem;
+  margin-right: 22rem;*/
+  margin:auto;
 }
 
 button {
   /* without margin:auto subscribe button took up entire grid cell */
   margin:auto;
  
+}
+
+h1 {
+  margin:0;
 }
 
 /*Reset*/
@@ -66,7 +78,7 @@ ul li {
   list-style: none;
 }
 
-
+/*cards*/
 
 
 /*organize into proper css files*/
@@ -74,15 +86,8 @@ ul li {
 .jeeps {
   text-align: center;
 
-  font-family: 'BioRhyme', serif;
-
-  background-color: #EDF5E1;
-
   margin-top: 0;
   margin-bottom:0;
-
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .team {
@@ -92,8 +97,6 @@ ul li {
 
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-
-  background-color: #05386B;
 }
 
 .card {
@@ -103,34 +106,13 @@ ul li {
   
   display: flex;
   flex-direction: column;
-
-  border: 1px solid #EDF5E1;
-
-  padding: 0.7rem;
-
-  border-radius:1rem;
-
-  background-color: #EDF5E1;
-  color: #05386B;
 }
 
 .card>figcaption>h2 {
-  font-family: 'BioRhyme', serif;
-  font-size:32px;
-
   text-align: center;
 }
 
 .card>figcaption>p {
-  font-family: 'Rubik', sans-serif;
-  font-size: 22px;
-
   max-width: 95ch;
   min-width: 20ch;
-}
-
-img {
-  width: 100%;
-
-  border-radius: 1rem;
 }

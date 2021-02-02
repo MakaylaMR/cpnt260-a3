@@ -1,0 +1,136 @@
+/*main*/
+
+.container {
+  /*using grid for more practice*/
+  display: grid;
+
+  min-height: 100vh;
+
+  align-items: center;
+}
+/*header + nav bar*/
+
+.head {
+  align-self: start;
+}
+
+header li {
+  justify-self: end;
+  align-self: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+
+  margin-top: 0;
+
+  /*styling part of ul*/
+}
+/*decided to include the "logo/home" to the list rather than a heading because i couldn't figure out how to make the heading and nav bar at the very top of the page lined  up nicely*/
+
+ul .jeep {
+  justify-self: start;
+}
+
+/*div*/
+
+.content {
+  /* display:grid to have more control over child elements, specifically the subscribe button */
+  display: grid;
+
+  text-align:center;
+  /*if not align-self:start, "Hello World" container would be located in the middle of the grid cell, so lower down the page*/
+  align-self: start;
+}
+
+button {
+  /* without margin:auto subscribe button took up entire grid cell */
+  margin:auto;
+ 
+}
+
+/*Reset*/
+
+* {
+  /*Tony told me to use this one*/
+  box-sizing: border-box;
+}
+
+body {
+  /*makes it so it consumes 100% of the page, also removes scroll bar*/
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+
+
+/*organize into proper css files*/
+
+.jeeps {
+  text-align: center;
+
+  font-family: 'BioRhyme', serif;
+
+  background-color: #EDF5E1;
+
+  margin-top: 0;
+  margin-bottom:0;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.team {
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: center;*/
+
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  background-color: #05386B;
+}
+
+.card {
+  margin: 1em auto;
+  min-width: 30ch;
+  max-width: 40ch;
+  
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #EDF5E1;
+
+  padding: 0.7rem;
+
+  border-radius:1rem;
+
+  background-color: #EDF5E1;
+  color: #05386B;
+}
+
+.card>figcaption>h2 {
+  font-family: 'BioRhyme', serif;
+  font-size:32px;
+
+  text-align: center;
+}
+
+.card>figcaption>p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+
+  max-width: 95ch;
+  min-width: 20ch;
+}
+
+img {
+  width: 100%;
+
+  border-radius: 1rem;
+}

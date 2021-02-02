@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat&display=swap');
+
+/*Header*/
+
+header li {
+  font-size: 24px;
+  font-size: clamp(20px, 5vw, 30px);
+}
+
+ul .jeep {
+  font-size: 42px;
+}
+
+.content {
+  font-family: 'Fjalla One', sans-serif;
+  font-size:24;
+  font-size: clamp(20px, 5vw, 32px);
+}

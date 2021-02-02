@@ -26,15 +26,6 @@ ul {
   margin-top: 0;
 }
 
-@media screen and (max-width: 42.7rem) {
-  ul {
-    display: block;
-
-    text-align: center;
-  }
-}
-
-
 ul .jeep {
   justify-self: start;
   /*decided to include the "logo/home" to the list rather than a heading because i couldn't figure out how to make the heading and nav bar at the very top of the page lined  up nicely*/

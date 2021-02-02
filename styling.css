@@ -30,6 +30,12 @@ ul {
   padding: 0.5rem;
 }
 
+@media screen and (max-width: 42.7rem) {
+  ul li {
+    padding:0.5rem;
+  }
+}
+
 /*Hero section*/
 
 .hero {

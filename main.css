@@ -26,19 +26,18 @@ ul {
   margin-top: 0;
 }
 
-@media screen and (max-width: 42.7rem) {
+/*@media screen and (max-width: 42.7rem) {
   ul {
     display: block;
 
     text-align: center;
   }
-}
+}*/
 
 ul .jeep {
   justify-self: start;
   /*decided to include the "logo/home" to the list rather than a heading because i couldn't figure out how to make the heading and nav bar at the very top of the page lined  up nicely*/
 }
-
 /*Hero section*/
 
 .hero {
@@ -118,4 +117,19 @@ ul li {
 .card>figcaption>p {
   max-width: 95ch;
   min-width: 20ch;
+}
+
+
+
+
+.nav-wrapper [type=checkbox]{
+  display:none;
+}
+
+.nav-menu {
+  display:none;
+}
+
+#nav-check:checked ~ * ~ .nav-menu {
+  display:block;
 }

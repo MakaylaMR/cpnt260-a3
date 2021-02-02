@@ -9,13 +9,19 @@
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="hamburger.scss">
 </head>
+<img src="" alt="">
 <body>
   <main>
     <section class="container">
       <header class="head">
-          <nav>
+        <!-- nav-wrapper start-->
+        <div class="nav-wrapper">
+          <input type="checkbox" id="nav-check">
+          <label for="nav-check"><img id="hamburger-menu" src="assets/icons/iconmonstr-menu-thin-240.png" alt="hamburger menu icon (three horizontal lines)"></label>
+          <!--nav-menu start-->
+          <nav class="nav-menu">
             <ul>
-              <!--had to specify list items as I wanted the "Jeep" list to be different than the rest.-->
+                <!--had to specify list items as I wanted the "Jeep" list to be different than the rest.-->
               <li class="jeep"><a href="#">Jeep</a></li>
               <li class="list"><a href="https://github.com/MakaylaMR">Contact</a></li>
               <li class="list"><a href="#">Newsletter</a></li>
@@ -23,6 +29,9 @@
               <li class="list"><a href="#">Login</a></li>
             </ul>
           </nav>
+          <!--nav-menu end-->
+        </div>
+        <!--nav wrapper end-->
       </header>
       <!--had to add a div since using grid. without div the height was applied to the button element and me no likey-->
       <div class="hero">

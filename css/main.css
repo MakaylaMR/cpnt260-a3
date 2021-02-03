@@ -43,7 +43,7 @@ ul .jeep {
   display:none;
 }
 
-i {
+#hamburger {
   /*honestly not sure why I chose position:relative; it worked and did the job so ?*/
   position: relative;
 
@@ -94,6 +94,7 @@ h1 {
 }
 
 .team {
+  /*keeping the flex here in case I somehow manage to mess up the way my cards work*/
   /*display: flex;
   flex-wrap: wrap;
   justify-content: center;*/
@@ -120,6 +121,31 @@ h1 {
 .card>figcaption>p {
   max-width: 95ch;
   min-width: 20ch;
+}
+
+/*contact*/
+
+.contact {
+  display:grid;
+
+  /*needed to override the repeat(5,auto); in the header+nav section of this css page (listed under ul)*/
+  grid-template-columns: repeat(3, auto);
+
+  /*used to remove whitespace at bottom*/
+  margin: 0;
+
+  text-align: center;
+}
+
+/*gallery*/
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+}
+
+img {
+  width: 100%;
 }
 
 /*media querie*/

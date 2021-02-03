@@ -89,6 +89,17 @@ button:hover {
   width: 100%;
 }
 
+/*contact*/
+
+.contact li {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#social {
+  font-size: 50px;
+}
+
 /*media querie*/
 
 @media screen and (max-width: 42.7rem) {

@@ -1,3 +1,4 @@
+
 /*main*/
 
 .container {
@@ -25,14 +26,6 @@ ul {
 
   margin-top: 0;
 }
-
-/*@media screen and (max-width: 42.7rem) {
-  ul {
-    display: block;
-
-    text-align: center;
-  }
-}*/
 
 ul .jeep {
   justify-self: start;
@@ -119,17 +112,39 @@ ul li {
   min-width: 20ch;
 }
 
-
-
-
-.nav-wrapper [type=checkbox]{
+.nav-wrapper [type=checkbox] {
   display:none;
 }
 
-.nav-menu {
-  display:none;
+i {
+  position: relative;
+
+  z-index: -1;
 }
 
-#nav-check:checked ~ * ~ .nav-menu {
-  display:block;
+@media screen and (max-width: 42.7rem) {
+  ul {
+    display: block;
+
+    text-align: center;
+  }
+  .nav-wrapper [type=checkbox] {
+    display:none;
+  }
+  
+  .nav-menu {
+    display:none;
+  }
+  
+  #toggle:checked ~ * ~ .nav-menu {
+    display:block;
+  }
+  
+  i {
+    font-size: 40px;
+  
+    color: black;
+
+    z-index: 1;
+  }
 }

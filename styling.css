@@ -30,11 +30,6 @@ ul {
   padding: 0.5rem;
 }
 
-.nav-wrapper {
-  margin:0;
-  padding: 0;
-}
-
 @media screen and (max-width: 42.7rem) {
   ul li {
     padding:0.5rem;
@@ -90,4 +85,20 @@ button:hover {
 
 .jeeppics {
   width: 100%;
+}
+
+/*media querie*/
+
+@media screen and (max-width: 42.7rem) {
+  /*hamburger menu*/
+.nav-wrapper {
+  background-color: rgb(0,0,0);
+}
+
+  i {
+    color:rgb(255,255,255);
+
+    padding-right: 0.7rem;
+    padding-top: 0.5rem;
+  }
 }

@@ -50,3 +50,12 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
 }
+
+/*media querie*/
+
+@media screen and (max-width: 42.7rem) {
+  /*hamburger menu*/
+  i {
+    font-size: 40px;
+  }
+}

@@ -31,6 +31,23 @@ ul .jeep {
   justify-self: start;
   /*decided to include the "logo/home" to the list rather than a heading because i couldn't figure out how to make the heading and nav bar at the very top of the page lined  up nicely*/
 }
+
+/*hamburger menu **NOTE** actual hamburger menu is in the media querie below, this is to ensure parts of the html meant for hamburger menu do not show up on larger screens*/
+
+.nav-wrapper [type=checkbox] {
+  display:none;
+}
+
+i {
+  position: relative;
+
+  z-index: -1;
+}
+
+label {
+  display:none;
+}
+
 /*Hero section*/
 
 .hero {
@@ -58,22 +75,6 @@ button {
 
 h1 {
   margin:0;
-}
-
-/*Reset*/
-
-* {
-  /*Tony told me to use this one*/
-  box-sizing: border-box;
-}
-
-body {
-  /*makes it so it consumes 100% of the page, also removes scroll bar*/
-  margin: 0;
-}
-
-ul li {
-  list-style: none;
 }
 
 /*cards*/
@@ -112,19 +113,7 @@ ul li {
   min-width: 20ch;
 }
 
-.nav-wrapper [type=checkbox] {
-  display:none;
-}
-
-i {
-  position: relative;
-
-  z-index: -1;
-}
-
-label {
-  display:none;
-}
+/*media querie*/
 
 @media screen and (max-width: 42.7rem) {
   ul {
@@ -132,6 +121,9 @@ label {
 
     text-align: center;
   }
+
+/*hamburger menu*/
+
   .nav-wrapper [type=checkbox] {
     display:none;
   }
@@ -145,13 +137,30 @@ label {
   }
   
   i {
-    font-size: 40px;
-  
-    color: black;
-
     z-index: 1;
   }
+  
   label {
+    position:absolute;  
+
     display:inline-block;
+
+    right:0;
   }
+}
+
+/*Reset*/
+
+* {
+  /*Tony told me to use this one*/
+  box-sizing: border-box;
+}
+
+body {
+  /*makes it so it consumes 100% of the page, also removes scroll bar*/
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
 }

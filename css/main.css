@@ -1,8 +1,12 @@
+/*this css page includes display, align-items/self, justify-self, margin, position, z-index, left, top, width, height, grid-template, text-align, 
+
 
 /*main*/
 
 .container {
-  /*using grid for more practice*/
+  /*using grid for more practice
+  **EDIT**
+  Jen Simmons you fooled me making this seem easy, I accept the challenge*/
   display: grid;
 
   min-height: 100vh;
@@ -35,16 +39,19 @@ ul .jeep {
 /*hamburger menu **NOTE** actual hamburger menu is in the media querie below, this is to ensure parts of the html meant for hamburger menu do not show up on larger screens*/
 
 .nav-wrapper [type=checkbox] {
+  /*removes checkbox*/
   display:none;
 }
 
 i {
+  /*honestly not sure why I chose position:relative; it worked and did the job so ?*/
   position: relative;
 
   z-index: -1;
 }
 
 label {
+  /*this removes whitespace above the header*/
   display:none;
 }
 
@@ -137,12 +144,15 @@ h1 {
   }
   
   i {
+    /*this overrides the z-index:-1; allowing it to show up on on smaller screen widths*/
     z-index: 1;
   }
   
   label {
+    /*chose absolute because I wanted to move the label relative to it's parent element; which is the div .nav-wrapper. wanted this so i could move the icon to the very right of the div*/
     position:absolute;  
 
+    /*display:inline-block enveloped the hamburger menu icon perfectly*/
     display:inline-block;
 
     right:0;

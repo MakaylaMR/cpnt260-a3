@@ -84,6 +84,8 @@ button:hover {
 }
 
 .jeeppics {
+/*the very first jeep picture in the cards "makayla, brings tims" is slightly bigger than the others and im not sure how to fix it*/
+
   width: 100%;
 }
 
@@ -91,6 +93,8 @@ button:hover {
 
 @media screen and (max-width: 42.7rem) {
   /*hamburger menu*/
+
+  /*I still want a header on smaller screens when the hamburger menu pops up but i dont know how*/
 .nav-wrapper {
   background-color: rgb(0,0,0);
 }
@@ -100,5 +104,9 @@ button:hover {
 
     padding-right: 0.7rem;
     padding-top: 0.5rem;
+
+
+    /*added cursor so it's more obviously clickable*/
+    cursor: pointer;
   }
 }

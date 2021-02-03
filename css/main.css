@@ -1,4 +1,4 @@
-/*this css page includes display, align-items/self, justify-self, margin, position, z-index, left, top, width, height, grid-template, text-align, 
+/*this css page includes display, align-items/self, justify-self, margin, position, z-index, left, top, width, height, grid-template, and text-align*/
 
 
 /*main*/
@@ -33,7 +33,7 @@ ul {
 
 ul .jeep {
   justify-self: start;
-  /*decided to include the "logo/home" to the list rather than a heading because i couldn't figure out how to make the heading and nav bar at the very top of the page lined  up nicely*/
+  /*decided to include the "logo/home" to the list rather than a heading because i couldn't figure out how to make the heading and nav bar at the very top of the page lined up nicely*/
 }
 
 /*hamburger menu **NOTE** actual hamburger menu is in the media querie below, this is to ensure parts of the html meant for hamburger menu do not show up on larger screens*/
@@ -97,6 +97,8 @@ h1 {
   /*display: flex;
   flex-wrap: wrap;
   justify-content: center;*/
+
+  /*when entering the awkward page size where it should be two on top and 1 bottom middle it doesnt do that? still does two on top but the one on the bottom is located on the left, this is probably because of how grid is built--look into it*/
 
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -167,10 +169,11 @@ h1 {
 }
 
 body {
-  /*makes it so it consumes 100% of the page, also removes scroll bar*/
+  /*makes it so it consumes 100% of the page*/
   margin: 0;
 }
 
 ul li {
+  /*removes oogly bullet points ew*/
   list-style: none;
 }

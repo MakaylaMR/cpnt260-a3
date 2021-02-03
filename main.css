@@ -122,6 +122,10 @@ i {
   z-index: -1;
 }
 
+label {
+  display:none;
+}
+
 @media screen and (max-width: 42.7rem) {
   ul {
     display: block;
@@ -146,5 +150,8 @@ i {
     color: black;
 
     z-index: 1;
+  }
+  label {
+    display:inline-block;
   }
 }

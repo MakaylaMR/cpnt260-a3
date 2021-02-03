@@ -30,6 +30,11 @@ ul {
   padding: 0.5rem;
 }
 
+.nav-wrapper {
+  margin:0;
+  padding: 0;
+}
+
 @media screen and (max-width: 42.7rem) {
   ul li {
     padding:0.5rem;

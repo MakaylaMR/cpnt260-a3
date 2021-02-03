@@ -1,8 +1,9 @@
 ### Attributions
 | Author/Creator| Original Work          | License  |
 | ------------- |:-------------:|---------:|
-|Nathan Strome | All images sent directly from owner |Verbal agreement?|
+|Nathan Strome | All images sent directly from owner |Verbal agreement|
 |Google | [Google Fonts](https://fonts.google.com/?preview.text_type=custom) |[Google Font License](https://fonts.google.com/attribution)|
+|FontAwesome | [FontAwesome Icon](https://fontawesome.com/icons/bars?style=solid) |[FontAwesome License](https://fontawesome.com/license#license)|
 
 ### Attributions (in-class)
 |Person| Links | Layout applied (HTML and/or CSS)|

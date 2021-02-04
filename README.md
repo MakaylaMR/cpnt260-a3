@@ -23,14 +23,14 @@ However, you will find the media querie being located at the very bottom of the 
 The HTML also includes comments, these comments are really just me ranting on about how to do certain things and me being lost.
 
 
-### Attributions
+## Attributions
 | Author/Creator| Original Work          | License  |
 | ------------- |:-------------:|---------:|
 |Nathan Strome | All images sent directly from owner |Verbal agreement|
 |Google | [Google Fonts](https://fonts.google.com/?preview.text_type=custom) |[Google Font License](https://fonts.google.com/attribution)|
 |FontAwesome | [FontAwesome Icon](https://fontawesome.com/icons/bars?style=solid) |[FontAwesome License](https://fontawesome.com/license#license)|
 
-### Attributions (in-class)
+## Attributions (in-class)
 |Person| Links | Layout applied (HTML and/or CSS)|
 | ------------- |:-------------:|-------------|
 |Aidan O'Reilly | [CSS Grid Layouts](https://codepen.io/Aidano/pen/yLVBZBX)| CSS

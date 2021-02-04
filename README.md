@@ -1,3 +1,28 @@
+# Web Contruction Fund. (CPNT260)
+## Author/Creator: Makayla Martineau Raymundo
+## Context
+This website in simple terms shows off my Jeep and my partner's Jeep. This site includes; a hero section, a horizontal navigation bar that turns into a hamburger menu at small enough screen sizes, a contact section, a gallery and a footer.
+
+## Links
+GitHub Repository: https://github.com/MakaylaMR/cpnt260-a3
+
+Published at: https://makaylamr.github.io/cpnt260-a3/
+## Requirements
+### CSS
+I have added comments in my css pages such as "body,header, nav bar, etc.." to help you navigate the css page.
+
+In addition to those comments I have also added comments explaining the reasoning behind choosing certain css qualities. 
+
+At the top of every css page I have added descriptions of what you can expect to find in each page.
+
+The sections of the css page are in order of the html page where, body comes first, then header, then nav bar, the hero section and so on. 
+
+However, you will find the media querie being located at the very bottom of the styling.css and fonts.css pages. In the main.css at the very bottom is the reset section and right above that is the media querie.
+
+### HTML
+The HTML also includes comments, these comments are really just me ranting on about how to do certain things and me being lost.
+
+
 ### Attributions
 | Author/Creator| Original Work          | License  |
 | ------------- |:-------------:|---------:|

@@ -179,7 +179,7 @@ footer p {
     display:block;
   }
   
-  i {
+  #hamburger {
     /*this overrides the z-index:-1; allowing it to show up on on smaller screen widths*/
     z-index: 1;
   }
@@ -188,7 +188,7 @@ footer p {
     /*chose absolute because I wanted to move the label relative to it's parent element; which is the div .nav-wrapper. wanted this so i could move the icon to the very right of the div*/
     position:absolute;  
 
-    /*display:inline-block enveloped the hamburger menu icon perfectly*/
+    /*display inline-block enveloped the hamburger menu icon perfectly*/
     display:inline-block;
 
     right:0;

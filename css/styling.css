@@ -88,6 +88,13 @@ button:hover {
 
   width: 100%;
 }
+/*gallery*/
+
+.gallery {
+  grid-gap: 1rem;
+
+  background-color: rgb(0,0,0);
+}
 
 /*contact*/
 
@@ -96,8 +103,14 @@ button:hover {
   padding-bottom: 3rem;
 }
 
-#social {
-  font-size: 50px;
+/*footer*/
+
+footer {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+
+  padding-top: 1rem;
+  padding-bottom:1rem;
 }
 
 /*media querie*/

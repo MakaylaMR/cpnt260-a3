@@ -22,9 +22,9 @@
             <ul>
                 <!--had to specify list items as I wanted the "Jeep" list to be different than the rest.-->
               <li class="jeep"><a href="#">Jeep</a></li>
+              <li class="list"><a href="#">The Team</a></li>
               <li class="list"><a href="#">Contact</a></li>
               <li class="list"><a href="#">Gallery</a></li>
-              <li class="list"><a href="#">Instagram</a></li>
               <li class="list"><a href="#">Login</a></li>
             </ul>
           </nav>
@@ -39,7 +39,6 @@
         <button>Subscribe</button>
       </div>
     </section>
-
       <h2 class="jeeps">The Team</h2>
     <section class="team">
       <article class="card">
@@ -67,6 +66,7 @@
     </section>
     <section>
       <h2 class="jeeps">Contact</h2>
+      <!--i couldnt find anywhere that could tell me if ul was a sibling element to h2 so I went with my gut i'm willing to take one for the team-->
         <ul class="contact">
           <!--to be completely honest not sure why i am not sure as to why i decided to use id rather than class... seems like ive been using a lot of classes -- also had to specify id because the css linked to ul, a and li wasnt responding properly-->
           <li><a href="https://github.com/MakaylaMR"><i id="social"class="fab fa-github"></i>GitHub</a></li>
@@ -76,6 +76,7 @@
     </section>
       <h2 class="jeeps">Off-Roading Gallery</h2>
     <section class="gallery">
+      <!--when the images go into columns of 3 the last row only has one image and is located to the very left -- fix this-->
       <img src="assets/images/jeepjk-bctrip.jpg" alt="2007 black Jeep JK rear end with a trasharoo bag on the spare tire. surrounded by a forest in BC.">
       <img src="assets/images/jeepjk-jeeptj-airdown.jpg" alt="In front a 2007 black Jeep JK, behind it a beige/gold 2003 Jeep TJ both airing down their tires in Waiparous, Alberta.">
       <img src="assets/images/jeepJK-snow.jpg" alt="2007 black Jeep JK off-roading in the snow">
@@ -85,8 +86,12 @@
       <img src="assets/images/jeeptj-offroad.jpg" alt="2003 beige/gold Jeep TJ surrounded by a forest in Waiparous, Alberta on a rocky path in the middle of the woods.">
       <img src="assets/images/JeepTJ-bridge.jpg" alt="2003 beige/gold Jeep TJ facing forwards, crossing a narrow bridge in Waiparous, Alberta.">
       <img src="assets/images/jeeptj-sideprofile.jpg" alt="2003 beige/gold Jeep TJ side profile during sunrise in a field of grass.">
-      <img src="assets/images/jeep-profile-nathan.jpg" alt="2007 black Jeep JK facing forwards with the front tires turned to the left side of the image.">
+      <img id="jeepjk"src="assets/images/jeep-profile-nathan.jpg" alt="2007 black Jeep JK facing forwards with the front tires turned to the left side of the image.">
     </section>
   </main>
+  <!--I am not 100% certain if the footer should be located inside or outside the main element-->
+  <footer>
+    <p>&copy Copyright 2021 by Makayla M.R. All rights reserved.</p>
+  </footer>
 </body>
 </html>

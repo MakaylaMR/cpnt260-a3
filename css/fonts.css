@@ -58,6 +58,19 @@ button {
   font-size: clamp(22px, 3vw, 38px);
 }
 
+#social {
+  font-size: 50px;
+}
+
+/*footer*/
+
+footer {
+  font-size: 20px;
+  font-size: clamp(18px, 3vw, 25px);
+
+  font-family: 'Montserrat', sans-serif;
+}
+
 /*media querie*/
 
 @media screen and (max-width: 42.7rem) {

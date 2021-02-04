@@ -152,20 +152,6 @@ img {
   text-align: center;
 }
 
-
-/*contact form*/
-
-form {
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-
-  text-align: center;
-}
-
-.contact-form {
-  display:block;
-}
-
 /*footer*/
 
 footer {

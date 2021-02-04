@@ -84,6 +84,10 @@ h1 {
   margin:0;
 }
 
+.hero p {
+  margin:0;
+}
+
 /*cards*/
 
 .jeeps {
@@ -123,6 +127,17 @@ h1 {
   min-width: 20ch;
 }
 
+/*gallery*/
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+}
+
+img {
+  width: 100%;
+}
+
 /*contact*/
 
 .contact {
@@ -137,16 +152,21 @@ h1 {
   text-align: center;
 }
 
-/*gallery*/
 
-.gallery {
+/*contact form*/
+
+form {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+  grid-template-columns: repeat(1, auto);
+
+  text-align: center;
 }
 
-img {
-  width: 100%;
+.contact-form {
+  display:block;
 }
+
+/*footer*/
 
 footer {
   text-align: center;

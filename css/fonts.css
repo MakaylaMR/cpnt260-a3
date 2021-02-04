@@ -26,6 +26,12 @@ ul {
   font-size: clamp(20px, 5vw, 32px);
 }
 
+.hero p {
+  font-size:22px;
+  font-size: clamp(20px, 3vw, 24px);
+  font-family: 'Montserrat', sans-serif;
+}
+
 button {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;

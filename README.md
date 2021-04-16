@@ -1,13 +1,8 @@
-# Web Contruction Fund. (CPNT260)
+# Website Mockup
 ## Author/Creator: Makayla Martineau Raymundo
 ## Context
 This website in simple terms shows off my Jeep and my partner's Jeep. This site includes; a hero section, a horizontal navigation bar that turns into a hamburger menu at small enough screen sizes, a contact section, a gallery and a footer.
 
-## Links
-GitHub Repository: https://github.com/MakaylaMR/cpnt260-a3
-
-Published at: https://makaylamr.github.io/cpnt260-a3/
-## Requirements
 ### CSS
 I have added comments in my css pages such as "body,header, nav bar, etc.." to help you navigate the css page.
 

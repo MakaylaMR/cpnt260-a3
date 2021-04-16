@@ -21,7 +21,7 @@ a {
 }
 
 .list>a:hover {
-  background-color: rgb(153, 128, 102);
+  background-color: #aec6cf;
 }
 
 ul {
@@ -60,7 +60,7 @@ button {
 
 
 button:hover {
-  background-color: rgb(153, 128, 102);
+  background-color: #aec6cf;
 }
 
 
@@ -81,14 +81,14 @@ button:hover {
 .card {
   padding: 0.5rem;
 
-  background-color: rgb(153, 153, 102);
+  background-color: #aec6cf;
   color: rgb(0, 0, 0);
+  border-radius: 1rem;
 }
 
 .jeeppics {
-  /*the very first jeep picture in the cards "makayla, brings tims" is slightly bigger than the others and im not sure how to fix it*/
-
   width: 100%;
+  border-radius: 1rem;
 }
 
 /*contact*/

@@ -1,7 +1,7 @@
 # Website Mockup
 ## Author/Creator: Makayla Martineau Raymundo
 ## Context
-This website in simple terms shows off my Jeep and my partner's Jeep. This site includes; a hero section, a horizontal navigation bar that turns into a hamburger menu at small enough screen sizes, a contact section, a gallery and a footer.
+This website in simple terms shows off my Jeep and my partner's Jeep. This site includes; a hero section, a horizontal navigation bar that turns into a hamburger menu at small enough screen sizes, a contact section and a footer.
 
 ## Attributions
 | Author/Creator| Original Work          | License  |

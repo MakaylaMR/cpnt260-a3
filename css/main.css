@@ -4,15 +4,13 @@
 /*main*/
 
 .container {
-  /*using grid for more practice
-  **EDIT**
-  Jen Simmons you fooled me making this seem easy, I accept the challenge*/
   display: grid;
 
   min-height: 100vh;
 
   align-items: center;
 }
+
 /*header + nav bar*/
 
 .head {
@@ -40,7 +38,7 @@ ul .jeep {
 
 .nav-wrapper [type=checkbox] {
   /*removes checkbox*/
-  display:none;
+  display: none;
 }
 
 #hamburger {
@@ -52,7 +50,7 @@ ul .jeep {
 
 label {
   /*this removes whitespace above the header*/
-  display:none;
+  display: none;
 }
 
 /*Hero section*/
@@ -61,31 +59,31 @@ label {
   /* display:grid to have more control over child elements, specifically the subscribe button */
   display: grid;
 
-  text-align:center;
+  text-align: center;
 
   /*if not align-self:start, "Hello World" container would be located in the middle of the grid cell, so lower down the page*/
   align-self: start;
 
   /*margin so the container doesnt expand all the way across the page, did not use margin auto because I wanted to button to appear in the middle using align-self: start -- **EDIT**
   - using margin-left and margin-right does not make it responsive, the "hello world" and subscribe button goes off the page in mobile, however, this makes it so that the box is not centered in the hero section.*/
-  
+
   /*margin-left: 22rem;
   margin-right: 22rem;*/
-  margin:auto;
+  margin: auto;
 }
 
 button {
   /* without margin:auto subscribe button took up entire grid cell */
-  margin:auto;
- 
+  margin: auto;
+
 }
 
 h1 {
-  margin:0;
+  margin: 0;
 }
 
 .hero p {
-  margin:0;
+  margin: 0;
 }
 
 /*cards*/
@@ -94,7 +92,7 @@ h1 {
   text-align: center;
 
   margin-top: 0;
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 .team {
@@ -105,7 +103,7 @@ h1 {
 
   /*when entering the awkward page size where it should be two on top and 1 bottom middle it doesnt do that? still does two on top but the one on the bottom is located on the left, this is probably because of how grid is built--look into it*/
 
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
@@ -113,7 +111,7 @@ h1 {
   margin: 1em auto;
   min-width: 30ch;
   max-width: 40ch;
-  
+
   display: flex;
   flex-direction: column;
 }
@@ -131,7 +129,7 @@ h1 {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 img {
@@ -141,7 +139,7 @@ img {
 /*contact*/
 
 .contact {
-  display:grid;
+  display: grid;
 
   /*needed to override the repeat(5,auto); in the header+nav section of this css page (listed under ul)*/
   grid-template-columns: repeat(3, auto);
@@ -159,7 +157,7 @@ footer {
 }
 
 footer p {
-  margin:0;
+  margin: 0;
 }
 
 /*media querie*/
@@ -171,33 +169,33 @@ footer p {
     text-align: center;
   }
 
-/*hamburger menu*/
+  /*hamburger menu*/
 
   .nav-wrapper [type=checkbox] {
-    display:none;
+    display: none;
   }
-  
+
   .nav-menu {
-    display:none;
+    display: none;
   }
-  
-  #toggle:checked ~ * ~ .nav-menu {
-    display:block;
+
+  #toggle:checked~*~.nav-menu {
+    display: block;
   }
-  
+
   #hamburger {
     /*this overrides the z-index:-1; allowing it to show up on on smaller screen widths*/
     z-index: 1;
   }
-  
+
   label {
     /*chose absolute because I wanted to move the label relative to it's parent element; which is the div .nav-wrapper. wanted this so i could move the icon to the very right of the div*/
-    position:absolute;  
+    position: absolute;
 
     /*display inline-block enveloped the hamburger menu icon perfectly*/
-    display:inline-block;
+    display: inline-block;
 
-    right:0;
+    right: 0;
   }
 }
 

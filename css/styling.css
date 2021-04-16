@@ -3,11 +3,11 @@
 
 /*main*/
 .container {
-  background-image: url(../assets/images/jeep-background.jpg);
+  background-image: url(https://i.picsum.photos/id/1018/3914/2935.jpg?hmac=3N43cQcvTE8NItexePvXvYBrAoGbRssNMpuvuWlwMKg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 
 /*Header +nav bar*/
@@ -17,7 +17,7 @@ a {
 
   text-decoration: none;
 
-  color:  rgb(255,255,255);
+  color: rgb(255, 255, 255);
 }
 
 .list>a:hover {
@@ -25,21 +25,21 @@ a {
 }
 
 ul {
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
 
   padding: 0.5rem;
 }
 
 @media screen and (max-width: 42.7rem) {
   ul li {
-    padding:0.5rem;
+    padding: 0.5rem;
   }
 }
 
 /*Hero section*/
 
 .hero {
-  background-color: rgb(255,255,255,0.5);
+  background-color: rgb(255, 255, 255, 0.5);
 
   padding: 1rem;
 }
@@ -52,7 +52,7 @@ button {
 
   background-color: rgb(153, 153, 102);
 
-  border:none;
+  border: none;
   border-radius: 1.5rem;
 
   transition-duration: 0.5s;
@@ -67,26 +67,26 @@ button:hover {
 /*cards*/
 
 .jeeps {
-  background-color: rgb(0,0,0);
-  color: rgb(255,255,255);
-  
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
 .team {
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
 }
 
 .card {
   padding: 0.5rem;
 
-  background-color:rgb(153, 153, 102);
-  color: rgb(0,0,0);
+  background-color: rgb(153, 153, 102);
+  color: rgb(0, 0, 0);
 }
 
 .jeeppics {
-/*the very first jeep picture in the cards "makayla, brings tims" is slightly bigger than the others and im not sure how to fix it*/
+  /*the very first jeep picture in the cards "makayla, brings tims" is slightly bigger than the others and im not sure how to fix it*/
 
   width: 100%;
 }
@@ -103,17 +103,17 @@ button:hover {
 .gallery {
   grid-gap: 1rem;
 
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
 }
 
 /*footer*/
 
 footer {
-  background-color: rgb(0,0,0);
-  color: rgb(255,255,255);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 
   padding-top: 1rem;
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
 }
 
 /*media querie*/
@@ -122,12 +122,12 @@ footer {
   /*hamburger menu*/
 
   /*I still want a header on smaller screens when the hamburger menu pops up but i dont know how*/
-.nav-wrapper {
-  background-color: rgb(0,0,0);
-}
+  .nav-wrapper {
+    background-color: rgb(0, 0, 0);
+  }
 
   #hamburger {
-    color:rgb(255,255,255);
+    color: rgb(255, 255, 255);
 
     padding-right: 0.7rem;
     padding-top: 0.5rem;
